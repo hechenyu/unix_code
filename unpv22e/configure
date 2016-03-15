@@ -1163,7 +1163,7 @@ EOF
 
 fi
 
-for ac_hdr in sys/types.h sys/time.h time.h errno.h fcntl.h limits.h signal.h stdio.h stdlib.h string.h sys/stat.h unistd.h sys/wait.h sys/ipc.h sys/msg.h sys/sem.h sys/shm.h mqueue.h semaphore.h sys/mman.h sys/select.h poll.h stropts.h strings.h sys/ioctl.h sys/filio.h pthread.h door.h rpc/rpc.h sys/sysctl.h
+for ac_hdr in stdint.h sys/types.h sys/time.h time.h errno.h fcntl.h limits.h signal.h stdio.h stdlib.h string.h sys/stat.h unistd.h sys/wait.h sys/ipc.h sys/msg.h sys/sem.h sys/shm.h mqueue.h semaphore.h sys/mman.h sys/select.h poll.h stropts.h strings.h sys/ioctl.h sys/filio.h pthread.h door.h rpc/rpc.h sys/sysctl.h
 do
 ac_safe=`echo "$ac_hdr" | sed 'y%./+-%__p_%'`
 echo $ac_n "checking for $ac_hdr""... $ac_c" 1>&6
@@ -1321,6 +1321,7 @@ else
 #ifdef	HAVE_PTHREAD_H
 #  include	<pthread.h>
 #endif
+#include <stdint.h>
 int main() {
  uint8_t foo 
 ; return 0; }
@@ -1427,6 +1428,7 @@ else
 #ifdef	HAVE_PTHREAD_H
 #  include	<pthread.h>
 #endif
+#include <stdint.h>
 int main() {
  int16_t foo 
 ; return 0; }
@@ -1533,6 +1535,7 @@ else
 #ifdef	HAVE_PTHREAD_H
 #  include	<pthread.h>
 #endif
+#include <stdint.h>
 int main() {
  uint16_t foo 
 ; return 0; }
@@ -1639,6 +1642,7 @@ else
 #ifdef	HAVE_PTHREAD_H
 #  include	<pthread.h>
 #endif
+#include <stdint.h>
 int main() {
  int32_t foo 
 ; return 0; }
@@ -1745,6 +1749,7 @@ else
 #ifdef	HAVE_PTHREAD_H
 #  include	<pthread.h>
 #endif
+#include <stdint.h>
 int main() {
  uint32_t foo 
 ; return 0; }
