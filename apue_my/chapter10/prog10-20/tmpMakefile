@@ -1,0 +1,15 @@
+# 一个基本的Makefile
+
+CC = gcc
+CFLAGS = -Wall -std=c89
+DFLAGS = -lm
+
+a.out : prog10_20.o system.o
+    $(CC) $(LDFLAGS) -o $@ $^
+
+prog10_20.o : prog10_20.c
+    $(CC) $(CFLAGS) -o $@ -c $<
+
+system.o : system.c
+    $(CC) $(CFLAGS) -o $@ -c $<
+

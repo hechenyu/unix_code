@@ -1,0 +1,7 @@
+gcc -o testga.o -c testga.c -Wall -g 
+gcc -o testga testga.o  
+testga.o：在函数‘do_onetest’中：
+/home/hexu/src/myunpv1/names/testga.c:279：对‘sock_ntop’未定义的引用
+collect2: 错误：ld 返回 1
+Makefile:81: recipe for target 'testga' failed
+make: *** [testga] Error 1

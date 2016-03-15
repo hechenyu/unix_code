@@ -1,0 +1,3 @@
+"prog14_11.c", line 10.9: 1506-236 (W) Macro name SHM_SIZE has been redefined.
+"prog14_11.c", line 10.9: 1506-358 (I) "SHM_SIZE" is defined on line 99 of /usr/include/sys/ipc.h.
+"prog14_11.c", line 23.18: 1506-068 (W) Operation between types "unsigned char*" and "int" is not allowed.
