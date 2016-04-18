@@ -5,3 +5,5 @@
 #include "wrapsock.h"
 #include "wraplib.h"
 #include "connect_nonb.h"
+#include "connect_timeo.h"
+#include "signal_.h"

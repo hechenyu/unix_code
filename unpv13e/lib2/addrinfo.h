@@ -1,5 +1,5 @@
-#ifndef	__addrinfo_h
-#define	__addrinfo_h
+#ifndef	__unp_addrinfo_h
+#define	__unp_addrinfo_h
 
 /*
  * Everything here really belongs in <netdb.h>.
