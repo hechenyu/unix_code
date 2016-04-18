@@ -4,3 +4,4 @@
 #include "wrapunix.h"
 #include "wrapsock.h"
 #include "wraplib.h"
+#include "connect_nonb.h"

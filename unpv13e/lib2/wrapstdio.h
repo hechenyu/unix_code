@@ -4,6 +4,7 @@
 #include "error.h"
 #include <stdio.h>
 
+			/* prototypes for our stdio wrapper functions: see {Sec errors} */
 void	 Fclose(FILE *);
 FILE	*Fdopen(int, const char *);
 char	*Fgets(char *, int, FILE *);
