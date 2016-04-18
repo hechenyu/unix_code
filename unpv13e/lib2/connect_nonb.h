@@ -1,7 +1,7 @@
 #ifndef CONNECT_NONB_H
 #define CONNECT_NONB_H
 
-//#include	<sys/types.h>	/* basic system data types */
+#include	<sys/types.h>	/* basic system data types */
 #include	<sys/socket.h>	/* basic socket definitions */
 
 #ifndef SA

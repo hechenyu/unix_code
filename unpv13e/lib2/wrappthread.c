@@ -61,7 +61,7 @@ Pthread_mutexattr_init(pthread_mutexattr_t *attr)
 	err_sys("pthread_mutexattr_init error");
 }
 
-#ifndef	NO_POSIX_THREAD_PROCESS_SHARED
+#ifdef	_POSIX_THREAD_PROCESS_SHARED
 void
 Pthread_mutexattr_setpshared(pthread_mutexattr_t *attr, int flag)
 {

@@ -88,7 +88,7 @@ err_doit(int errnoflag, int level, const char *fmt, va_list ap)
 	char	buf[MAXLINE + 1];
 
 	errno_save = errno;		/* value caller might want printed */
-#ifndef	NO_VSNPRINTF
+#ifdef	HAVE_VSNPRINTF
 	vsnprintf(buf, MAXLINE, fmt, ap);	/* safe */
 #else
 	vsprintf(buf, fmt, ap);					/* not safe */

@@ -10,6 +10,10 @@
 #define	MAXLINE		4096	/* max text line length */
 #endif
 
+#ifndef	HAVE_VSNPRINTF
+#define HAVE_VSNPRINTF
+#endif
+
 void	 err_dump(const char *, ...);
 void	 err_msg(const char *, ...);
 void	 err_quit(const char *, ...);
