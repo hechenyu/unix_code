@@ -1,8 +1,8 @@
 #ifndef	__unp_wrapsock_h
 #define	__unp_wrapsock_h
 
-#include "error.h"
 #include <sys/socket.h>
+#include "error.h"
 
 #ifndef SA
 #define	SA	struct sockaddr
