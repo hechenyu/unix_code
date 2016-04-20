@@ -6,5 +6,6 @@
 #include "wraplib.h"
 #include "connect_nonb.h"
 #include "connect_timeo.h"
-#include "signal_.h"
+#include "signal_unp.h"
+#include "daemon_init.h"
 #include "daemon_inetd.h"

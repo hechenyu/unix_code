@@ -1,7 +1,6 @@
 #ifndef	__unp_wrapunix_h
 #define	__unp_wrapunix_h
 
-#include "error.h"
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/time.h>
@@ -10,6 +9,7 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 #include <sys/sysctl.h>
+#include "error.h"
 
 			/* prototypes for our Unix wrapper functions: see {Sec errors} */
 void	*Calloc(size_t, size_t);

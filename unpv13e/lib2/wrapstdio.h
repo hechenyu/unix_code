@@ -1,8 +1,8 @@
 #ifndef	__unp_wrapstdio_h
 #define	__unp_wrapstdio_h
 
-#include "error.h"
 #include <stdio.h>
+#include "error.h"
 
 			/* prototypes for our stdio wrapper functions: see {Sec errors} */
 void	 Fclose(FILE *);

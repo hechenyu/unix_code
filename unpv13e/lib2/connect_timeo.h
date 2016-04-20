@@ -1,14 +1,12 @@
 #ifndef __unp_connect_timeo_h
 #define __unp_connect_timeo_h
 
-#include "error.h"
-#include "signal_.h"
-
-#include <unistd.h>
+#include <errno.h>
 #include <signal.h>
-
-#include	<sys/types.h>	/* basic system data types */
-#include	<sys/socket.h>	/* basic socket definitions */
+#include <unistd.h>
+#include <sys/socket.h>
+#include "error.h"
+#include "signal_unp.h"
 
 #ifndef SA
 #define	SA	struct sockaddr
