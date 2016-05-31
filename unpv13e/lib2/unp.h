@@ -9,3 +9,4 @@
 #include "signal_unp.h"
 #include "daemon_init.h"
 #include "daemon_inetd.h"
+#include "dg_cli.h"

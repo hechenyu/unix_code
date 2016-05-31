@@ -95,7 +95,7 @@ Mkstemp(char *template)
 {
 	int i;
 
-#ifndef NO_HAVE_MKSTEMP
+#ifdef HAVE_MKSTEMP
 	if ((i = mkstemp(template)) < 0)
 		err_quit("mkstemp error");
 #else
@@ -219,7 +219,7 @@ Sysconf(int name)
 	return(val);
 }
 
-#ifndef	NO_HAVE_SYS_SYSCTL_H
+#ifdef	HAVE_SYS_SYSCTL_H
 void
 Sysctl(int *name, u_int namelen, void *oldp, size_t *oldlenp,
 	   void *newp, size_t newlen)

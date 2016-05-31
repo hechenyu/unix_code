@@ -40,4 +40,12 @@ pid_t	 Wait(int *);
 pid_t	 Waitpid(pid_t, int *, int);
 void	 Write(int, void *, size_t);
 
+#ifndef HAVE_MKSTEMP
+#define HAVE_MKSTEMP 1
+#endif
+
+#ifndef HAVE_SYS_SYSCTL_H
+#define HAVE_SYS_SYSCTL_H 1
+#endif
+
 #endif
