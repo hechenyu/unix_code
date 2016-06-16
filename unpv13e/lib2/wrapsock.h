@@ -4,9 +4,13 @@
 #include <sys/socket.h>
 #include "error.h"
 
-#ifndef SA
 #define	SA	struct sockaddr
-#endif
+
+/* Define to 1 if you have the `inet6_rth_init' function. */
+#define HAVE_INET6_RTH_INIT 1
+
+/* Define to 1 if you have the `poll' function. */
+#define HAVE_POLL 1
 
 			/* prototypes for our socket wrapper functions: see {Sec errors} */
 int		 Accept(int, SA *, socklen_t *);

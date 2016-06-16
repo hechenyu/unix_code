@@ -8,4 +8,6 @@
 #include "wrapunix.h"
 #include "signal_unp.h"
 
+int daemon_init(const char *pname, int facility);
+
 #endif

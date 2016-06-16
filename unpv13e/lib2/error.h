@@ -6,13 +6,10 @@
 #include <stdio.h>
 #include <errno.h>
 
-#ifndef MAXLINE
 #define	MAXLINE		4096	/* max text line length */
-#endif
 
-#ifndef	HAVE_VSNPRINTF
-#define HAVE_VSNPRINTF
-#endif
+/* Define to 1 if you have the `vsnprintf' function. */
+#define HAVE_VSNPRINTF 1
 
 void	 err_dump(const char *, ...);
 void	 err_msg(const char *, ...);

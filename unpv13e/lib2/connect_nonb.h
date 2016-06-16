@@ -8,9 +8,7 @@
 #include "wrapunix.h"
 #include "wrapsock.h"
 
-#ifndef SA
 #define	SA	struct sockaddr
-#endif
 
 int		 connect_nonb(int, const SA *, socklen_t, int);
 
