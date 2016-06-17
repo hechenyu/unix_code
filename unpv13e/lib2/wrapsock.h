@@ -1,7 +1,10 @@
 #ifndef	__unp_wrapsock_h
 #define	__unp_wrapsock_h
 
+#include <arpa/inet.h>
+#include <netinet/in.h>
 #include <sys/socket.h>
+#include <poll.h>
 #include "error.h"
 
 #define	SA	struct sockaddr

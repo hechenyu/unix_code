@@ -1,5 +1,4 @@
 #if 0
-#endif
 #include "error.h"
 #include "wrappthread.h"
 #include "wrapstdio.h"
@@ -8,7 +7,7 @@
 #include "wraplib.h"
 #include "connect_nonb.h"
 #include "connect_timeo.h"
-#include "signal_unp.h"
+#include "unpsignal.h"
 #include "daemon_init.h"
 #include "daemon_inetd.h"
 #include "dg_cli.h"
@@ -30,3 +29,8 @@
 #include "readline.h"
 #include "readn.h"
 #include "readable_timeo.h"
+#include "signal_intr.h"
+#include "sock_bind_wild.h"
+#include "sock_cmp_addr.h"
+#endif
+#include "sock_cmp_port.h"

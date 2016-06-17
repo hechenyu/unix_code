@@ -6,7 +6,7 @@
 #include <fcntl.h>
 #include <signal.h>
 #include "wrapunix.h"
-#include "signal_unp.h"
+#include "unpsignal.h"
 
 int daemon_init(const char *pname, int facility);
 

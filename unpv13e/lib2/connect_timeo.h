@@ -6,7 +6,7 @@
 #include <unistd.h>
 #include <sys/socket.h>
 #include "error.h"
-#include "signal_unp.h"
+#include "unpsignal.h"
 
 #define	SA	struct sockaddr
 
