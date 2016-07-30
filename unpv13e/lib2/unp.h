@@ -32,5 +32,5 @@
 #include "signal_intr.h"
 #include "sock_bind_wild.h"
 #include "sock_cmp_addr.h"
-#endif
 #include "sock_cmp_port.h"
+#endif
