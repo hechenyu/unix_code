@@ -1,4 +1,4 @@
-#if 0
+#if 1
 #include "error.h"
 #include "wrappthread.h"
 #include "wrapstdio.h"
@@ -33,4 +33,9 @@
 #include "sock_bind_wild.h"
 #include "sock_cmp_addr.h"
 #include "sock_cmp_port.h"
+#include "sock_ntop.h"
+#include "sock_ntop_host.h"
+#include "sock_get_port.h"
+#include "sock_set_port.h"
+#include "sock_set_wild.h"
 #endif
