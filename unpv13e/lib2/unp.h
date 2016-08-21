@@ -1,4 +1,4 @@
-#if 1
+#if 0
 #include "error.h"
 #include "wrappthread.h"
 #include "wrapstdio.h"
@@ -38,4 +38,9 @@
 #include "sock_get_port.h"
 #include "sock_set_port.h"
 #include "sock_set_wild.h"
+#include "str_cli.h"
+#include "str_echo.h"
+#include "tcp_connect.h"
+#include "tcp_listen.h"
 #endif
+#include "tv_sub.h"
